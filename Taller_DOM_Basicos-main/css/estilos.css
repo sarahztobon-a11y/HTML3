@@ -1,0 +1,125 @@
+body {
+  font-family: 'Cambria', Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #ffe6eb;
+  color: #881c40;
+  margin: 30px;
+}
+
+h1 {
+  color: #c71585;
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+
+}
+
+h2 {
+  padding: 10px 0;
+  color: #db7093;
+  font-size: 18px;
+  margin-bottom: 4px;
+  text-align: center;
+  background-color: #ffd5db;
+}
+
+p {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #881c59;
+}
+
+a {
+  color: #c71585;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 15px;
+ 
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border: 2px solid #ffb6c1;
+  margin: 20px auto;
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #370717;
+  border-radius: 4px;
+}
+
+input[readonly] {
+  background-color: #fff0f5;
+  font-weight: bold;
+}
+
+button {
+  background-color: #ffb6c1;
+  color: #333333;
+  padding: 10px 20px;
+  border: 1px solid #c71585;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: 15px auto 0 auto;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #951f58;
+}
+
+ul {
+  background-color: #ffcece;
+  padding: 20px 20px 20px 40px;
+  border: 2px solid #ffb6c1;
+  color: #b93361;
+  max-width: 450px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+li {
+  padding: 5px;
+  margin-bottom: 8px;
+  background-color: #ffe4ed;
+  border-radius: 4px;
+}
+
+table {
+  background-color: #ffffff;
+  border: 2px solid #ffb6c1;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px 12px;
+  border: 1px solid #ffb6c1;
+  text-align: left;
+}
+
+th {
+  background-color: #fff0f5;
+  color: #c71585;
+}
